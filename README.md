@@ -4,4 +4,4 @@
 
 Thanks for checking out this challenges.
 
-I take this challenges from [Frontend Mentor](https://www.frontendmentor.io).
+I take these challenges from [Frontend Mentor](https://www.frontendmentor.io).
