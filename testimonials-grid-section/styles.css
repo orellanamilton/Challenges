@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+}
+
+body {
+    display: flex;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main {
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+/* RIGTH CONTAINER */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row-container {
+    display: flex;
+    height: 35%;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+
+.large:first-child {
+    background-color:hsl(263, 55%, 52%);
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 5px right 50px;
+}
+
+.large:nth-child(2) {
+    background-color: hsl(219, 29%, 14%);
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.small:first-child {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    color: hsl(217, 19%, 35%);
+}
+
+.small:nth-child(2) {
+    background-color: hsl(217, 19%, 35%);
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* LEFT CONAINTER */
+
+.aside-container {
+    margin-left: 10px;
+    width: 30%;
+    height: 70%;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 8px;
+    color: hsl(217, 19%, 35%);
+}
+
+/* INSIDE CARD (R-CONTAINER) */
+
+.profile {
+    display: flex;
+    margin: 15px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: .9rem;
+}
+
+.name span {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.comment {
+    margin: 15px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.description {
+    margin: 15px;
+    font-size: .9rem;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .aside-container {
+        height: 100%;
+    }
+
+    .row-container {
+        height: 50%;
+    }
+
+}
