@@ -128,3 +128,28 @@ img {
     }
 
 }
+
+@media screen and (max-width: 1000px) {
+
+    .main {
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 10px
+    }
+
+    .row-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aside-container {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .small:first-child {
+        margin-top: 15px;
+    }
+
+
+}
