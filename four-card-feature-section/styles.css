@@ -102,3 +102,47 @@ body {
     margin-top: auto;
 }
 
+@media screen and (max-width: 768px) {
+
+    /* HEADER */
+
+    .title {
+        width: auto;
+    }
+
+    .subtitle{
+        width: 90%;
+    }
+
+    .header .title h1 {
+        font-size: 1rem;
+    }
+
+    .header .title p {
+        font-size: 1rem;
+    }
+
+    .header {
+        display: flex;
+    }
+
+
+    
+    /* CARD */
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 200px;
+    }
+
+    .card__header {
+        font-size: 1rem;
+    }
+    
+    .card__line {
+        width: 90%;
+    }
+}
