@@ -139,21 +139,20 @@ body {
 
  @media screen and (max-width: 768px) {
 
+    .box-container {
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 50px;
+    }
 
-     .box-container {
-         flex-direction: column;
-         width: 95%;
-         margin-bottom: 50px;;
-     }
+    .subscription {
+        width: 100%;
+        order: 2;
+        border-bottom-right-radius: 10px;
+    }
 
-     .subscription {
-         width: 100%;
-         order: 2;
-         border-bottom-right-radius: 10px;
-     }
-
-     .why-us {
-         width: 100%;
-         border-bottom-right-radius: 0;
-     }
+    .why-us {
+        width: 100%;
+        border-bottom-right-radius: 0;
+    }
  }
