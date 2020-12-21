@@ -129,3 +129,46 @@ body {
 .Anne {
     transform: translateY(50px);
 }
+
+@media screen and (max-width: 768px){
+   .main-container {
+       flex-direction: column;
+   }
+
+   .products {
+        width: 100%;
+    }
+
+    .productsUser {
+        font-size: 1.5rem;
+    }
+
+    .review {
+        width: 100%;
+        font-size: .6rem;
+    }
+
+    .two {
+        transform: translateX(0);
+    }
+    
+    .three {
+        transform: translateX(0);
+    }
+
+   .customerCard {
+       flex-direction: column;
+       width: 100%;
+       margin-top: 100px;
+       align-items: center;
+   }
+
+   .name{
+       transform: translateX(-100px);
+   }
+
+   .verified {
+    transform: translateX(-100px);
+   }
+
+}
