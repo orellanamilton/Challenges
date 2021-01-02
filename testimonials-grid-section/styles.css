@@ -12,7 +12,7 @@ body {
     background-color: hsl(210, 46%, 95%);
 }
 
-.main {
+main {
     display: flex;
     height: 90vh;
     width: 90vw;
